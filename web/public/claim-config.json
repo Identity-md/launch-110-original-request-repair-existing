@@ -1,0 +1,23 @@
+{
+  "name": "Sepolia",
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "explorerUrl": "https://sepolia.etherscan.io",
+  "rpcUrls": [
+    "https://ethereum-sepolia-rpc.publicnode.com",
+    "https://ethereum-sepolia.gateway.tatum.io",
+    "https://sepolia.rpc.sentio.xyz"
+  ],
+  "distributor": "0xc3d6cec8cc8be44024c5dc60386099acbb0c1817",
+  "distributorAbiPath": "abi/MerkleDistributor.json",
+  "distributorAbiHash": "706b029ebc8f6212022d2591216914eccc03ebc6afda53a016c1a58bf10528d7",
+  "distributorSourceCommit": "a94632d6ea40fbd2d1bcd8a0aafe53a1619956c6",
+  "deploymentBlock": "11755410",
+  "round": 0,
+  "serviceRoot": "0xb2bfb078148d698e3f24ee75fdacfd7b067112bd2b8e14121b6cc9bae73aa32e",
+  "snapshotPath": "allocation-snapshot.json",
+  "claimsPath": "claims.json"
+}

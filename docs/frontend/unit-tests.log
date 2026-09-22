@@ -1,0 +1,21 @@
+
+> proof-of-work-claim@1.0.0 test
+> tsx --test tests/*.test.ts
+
+✔ production build exits nonzero for absent, null, malformed or mismatched service roots (1750.3585ms)
+✔ service root gate rejects missing or mismatched generated configuration (0.397792ms)
+✔ build/runtime live reads reject wrong round root and wrong distributor token (0.444209ms)
+✔ every frozen allocation rebuilds the OpenZeppelin root and verifies its proof (17.303959ms)
+✔ reject duplicate/malformed/overflow allocations and changed proofs (2.034833ms)
+✔ single leaf and non-power-of-two tree agree with OpenZeppelin (7.933292ms)
+✔ ABI hash matches handoff, unaffected by object key order (0.741458ms)
+✔ reject absolute, URL and traversal asset paths (0.189083ms)
+✔ qualification depends on verified reads, chain time and total remaining funding (0.093333ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2094.00275

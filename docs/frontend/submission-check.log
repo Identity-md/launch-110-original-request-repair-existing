@@ -1,0 +1,18 @@
+
+> proof-of-work-claim@1.0.0 check:submission
+> tsx scripts/check-submission.ts
+
+{
+  "checkedAt": "2026-09-22T04:43:49.926Z",
+  "changedFiles": 134,
+  "candidateFiles": 187,
+  "sourceAndExportBytes": 4338671,
+  "historyBundleBytes": 116637,
+  "conservativeBundleBound": 5286796,
+  "limitBytes": 8388608,
+  "scopeCheck": "passed",
+  "submodules": 0,
+  "dependencyArtifacts": 0,
+  "gitCommitStatus": "Assignment Git metadata is read-only; source publication uses an isolated checkout. See publication evidence.",
+  "boundMethod": "All candidate file bytes plus complete existing Git history bundle, 4096 bytes per file and 64 KiB reserve. This is a conservative size check, not a new committed bundle."
+}

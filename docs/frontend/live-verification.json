@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-09-22T04:39:08.408Z",
+  "readsOnly": true,
+  "chainId": 11155111,
+  "walletRead": "0x200e710acaa6a93bbc77146026328c40f1d60fb1",
+  "token": "0xee85b80543c4f301b33505de4d9d0217ce26d8dd",
+  "distributor": "0xc3d6cec8cc8be44024c5dc60386099acbb0c1817",
+  "round": 0,
+  "tokenBindingVerified": true,
+  "contractCodeVerified": true,
+  "roots": {
+    "service": "0xb2bfb078148d698e3f24ee75fdacfd7b067112bd2b8e14121b6cc9bae73aa32e",
+    "standardMerkleTree": "0xb2bfb078148d698e3f24ee75fdacfd7b067112bd2b8e14121b6cc9bae73aa32e",
+    "onChain": "0xb2bfb078148d698e3f24ee75fdacfd7b067112bd2b8e14121b6cc9bae73aa32e",
+    "match": true
+  },
+  "proofsVerified": 63,
+  "totalWORK": "100000000",
+  "walletAllocation": {
+    "wallet": "0x200e710acaa6a93bbc77146026328c40f1d60fb1",
+    "amount": "12937841269841269841269842",
+    "proof": [
+      "0x0bbd551c7294b752ce57275ce1b85bee967ffe907f4d6a17d42c7188e531bc88",
+      "0x3ca3aa77d5800fe60d29897fbfda87c734d2cc71572cc0ac6d79d866e44f2a5e",
+      "0xa40478de550d2e7fbc51cb5c3d0724363d5957fef10d9373aa007b489765a52d",
+      "0xe62106f434ef063bf6a59de055c960c33f0aa5faad7d2a247fac1bc475db79ff",
+      "0x120c63bd383757f625f28bdc83077b9e1fdde2f4a531d2e2cc7ac8d8ffc167d3",
+      "0xbe9c708f6076617c2331713a8ffdb1897e673554a3076f719f27ef84f086cad0"
+    ],
+    "amountWORK": "12937841.269841269841269842",
+    "proofVerified": true,
+    "state": "locked"
+  },
+  "unlockTimeUTC": "2026-09-22T04:56:12.000Z",
+  "unlocked": false,
+  "live": {
+    "block": "11755615",
+    "blockHash": "0x808fd08f22851833a49bb654f7d9fce0b0135bc5e27995a2bd934d16e4ef110d",
+    "timestamp": "1790051940",
+    "root": "0xb2bfb078148d698e3f24ee75fdacfd7b067112bd2b8e14121b6cc9bae73aa32e",
+    "funded": "100000000000000000000000000",
+    "totalClaimed": "0",
+    "unlocksAt": "1790052972",
+    "sweepableAt": "1821585372",
+    "distributorBalance": "100000000000000000000000000",
+    "balance": "0",
+    "claimed": false,
+    "decimals": 18,
+    "positiveSweep": false,
+    "serviceVerified": true,
+    "rpc": "https://ethereum-sepolia-rpc.publicnode.com"
+  },
+  "crossChecks": [
+    {
+      "url": "https://ethereum-sepolia.gateway.tatum.io",
+      "chainId": 11155111,
+      "blockHash": "0x808fd08f22851833a49bb654f7d9fce0b0135bc5e27995a2bd934d16e4ef110d",
+      "matches": true
+    }
+  ],
+  "limitation": "Read-only public RPC checks; no wallet transaction signed or broadcast."
+}

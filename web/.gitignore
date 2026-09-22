@@ -1,0 +1,10 @@
+node_modules/
+.vite/
+.cache/
+.npm/
+.pnpm-store/
+.yarn/
+coverage/
+test-results/
+playwright-report/
+*.tsbuildinfo

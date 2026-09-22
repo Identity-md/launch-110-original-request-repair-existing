@@ -1,0 +1,10 @@
+{
+  "name": "Sepolia",
+  "nativeCurrency": { "name": "Sepolia Ether", "symbol": "ETH", "decimals": 18 },
+  "explorerUrl": "https://sepolia.etherscan.io",
+  "rpcUrls": [
+    "https://ethereum-sepolia-rpc.publicnode.com",
+    "https://ethereum-sepolia.gateway.tatum.io",
+    "https://sepolia.rpc.sentio.xyz"
+  ]
+}

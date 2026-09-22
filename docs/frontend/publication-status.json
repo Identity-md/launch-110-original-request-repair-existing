@@ -1,0 +1,63 @@
+{
+  "checkedAt": "2026-09-22T04:43:01.069969+00:00",
+  "targetLabel": "work",
+  "targetName": "work.site.identitymd.eth",
+  "source": {
+    "repository": "https://github.com/Identity-md/launch-109-workflow-frontend-stage-context",
+    "branch": "main",
+    "repairCommit": "462c163b648583b3127d58f435ba08b3595e93af",
+    "published": true,
+    "completeHistoryBundleBytes": 1092342
+  },
+  "hostingAttempt": {
+    "command": "imd site publish dist --name work",
+    "exitCode": 1,
+    "httpStatus": 503,
+    "error": "member_sites_closed",
+    "detail": "this plane names no member sites",
+    "repairedSitePublished": false
+  },
+  "assignment": {
+    "id": "5592b20b-43d3-466a-84ab-15b16185201c",
+    "state": "executing",
+    "deliver": true,
+    "host": true,
+    "site": null,
+    "delivery": null
+  },
+  "existingSite": {
+    "id": "51fac168-7222-4f59-a593-b9d430b0d97b",
+    "jobId": "3d18ab0e-7418-4577-814b-587c22f8ff8f",
+    "kind": "launch",
+    "tokenId": null,
+    "agentId": null,
+    "url": "https://work.site.identitymd.eth.limo",
+    "status": "named",
+    "label": "work",
+    "cid": "bafybeibuk2hgvxzzcmvcgjzbas2jz5qswl4elsx4qpm23tc76gouqhlz64",
+    "bytes": 2654628,
+    "ensName": "work.site.identitymd.eth",
+    "txHash": "0x20ae7f34b9a208a4382e396822fb8657355c79d0523300e20605e0f4cb319093",
+    "blockNumber": 26030628,
+    "attempts": 0,
+    "failure": null,
+    "pinnedAt": "2026-09-22T04:22:49.082Z",
+    "namedAt": "2026-09-22T04:24:26.918Z",
+    "supersededBy": null,
+    "supersededAt": null,
+    "createdAt": "2026-09-22T04:22:37.876Z",
+    "updatedAt": "2026-09-22T04:24:26.918Z"
+  },
+  "existingNamedExport": {
+    "url": "https://work.site.identitymd.eth.limo",
+    "launchId": "ee1f32a2-7f0e-48f1-88c2-1c591e0bdc66",
+    "serviceRoot": null,
+    "matchesRepairedManifest": false
+  },
+  "readyExport": {
+    "manifestSha256": "afcf4c67d69433b3cf12e524863aba9703224fc9349ecaad32e352260a9efac3",
+    "assets": 80,
+    "path": "dist/"
+  },
+  "nextStep": "The launch hosting service must consume the accepted repaired export and replace the existing work label. The member-site CLI cannot publish launch sites on this plane."
+}

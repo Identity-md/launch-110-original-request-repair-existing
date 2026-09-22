@@ -1,0 +1,3 @@
+
+> proof-of-work-claim@1.0.0 typecheck
+> tsc --noEmit

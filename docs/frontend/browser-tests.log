@@ -1,0 +1,47 @@
+
+> proof-of-work-claim@1.0.0 test:browser
+> playwright test --max-failures=1
+
+[WebServer] (node:17248) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 17 tests using 1 worker
+
+(node:17262) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   1 tests/claim.spec.ts:130:1 › disconnected and missing wallet: plain page, no claim (0ms)
+Testing stopped early after 1 maximum allowed failures.
+
+
+  1) tests/claim.spec.ts:130:1 › disconnected and missing wallet: plain page, no claim ─────────────
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /Users/surf/Library/Caches/ms-playwright/chromium_headless_shell-1194/chrome-mac/headless_shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/mt/y_k1jjmn1cbb1llhl_3_04yr0000gn/T/playwright_chromiumdev_profile-XHdr4M --remote-debugging-pipe --no-startup-window
+    <launched> pid=17263
+    [pid=17263][err] [0921/223808.001366:ERROR:base/power_monitor/thermal_state_observer_mac.mm:140] ThermalStateObserverMac unable to register to power notifications. Result: 9
+    [pid=17263][err] [0921/223808.020618:ERROR:net/dns/dns_config_service_posix.cc:142] DNS config watch failed to start.
+    [pid=17263][err] [0921/223808.030081:FATAL:base/apple/mach_port_rendezvous_mac.cc:156] Check failed: kr == KERN_SUCCESS. bootstrap_check_in org.chromium.Chromium.MachPortRendezvousServer.17263: Permission denied (1100)
+    Call log:
+      - <launching> /Users/surf/Library/Caches/ms-playwright/chromium_headless_shell-1194/chrome-mac/headless_shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/mt/y_k1jjmn1cbb1llhl_3_04yr0000gn/T/playwright_chromiumdev_profile-XHdr4M --remote-debugging-pipe --no-startup-window
+      - <launched> pid=17263
+      - [pid=17263][err] [0921/223808.001366:ERROR:base/power_monitor/thermal_state_observer_mac.mm:140] ThermalStateObserverMac unable to register to power notifications. Result: 9
+      - [pid=17263][err] [0921/223808.020618:ERROR:net/dns/dns_config_service_posix.cc:142] DNS config watch failed to start.
+      - [pid=17263][err] [0921/223808.030081:FATAL:base/apple/mach_port_rendezvous_mac.cc:156] Check failed: kr == KERN_SUCCESS. bootstrap_check_in org.chromium.Chromium.MachPortRendezvousServer.17263: Permission denied (1100)
+      - [pid=17263] <gracefully close start>
+      - [pid=17263] <kill>
+      - [pid=17263] <will force kill>
+      - [pid=17263] exception while trying to kill process: Error: kill EPERM
+      - [pid=17263] <process did exit: exitCode=null, signal=SIGTRAP>
+      - [pid=17263] starting temporary directories cleanup
+      - [pid=17263] finished temporary directories cleanup
+      - [pid=17263] <gracefully close end>
+
+
+    Error Context: ../test/scratch/playwright-results/claim-disconnected-and-missing-wallet-plain-page-no-claim/error-context.md
+
+  1 failed
+    tests/claim.spec.ts:130:1 › disconnected and missing wallet: plain page, no claim ──────────────
+  16 did not run
+  1 error was not a part of any test, see above for details

@@ -1,0 +1,17 @@
+
+> proof-of-work-claim@1.0.0 test:interaction
+> vitest run --config vitest.config.ts
+
+
+ RUN  v3.2.7 /Users/surf/.identitymd/work/5592b20b-43d3-466a-84ab-15b16185201c/e22339e3-89ef-49f0-a39f-02455bea96a1/web
+
+ ✓ tests/claim.interaction.test.tsx (16 tests) 225ms
+ ✓ tests/bootstrap.interaction.test.tsx (1 test) 833ms
+   ✓ boots exported data, opens stock RainbowKit, connects an injected provider and reads live state (mock RPC)  832ms
+
+ Test Files  2 passed (2)
+      Tests  17 passed (17)
+   Start at  22:37:05
+   Duration  1.62s (transform 82ms, setup 0ms, collect 529ms, tests 1.06s, environment 698ms, prepare 75ms)
+
+JSON report written to /Users/surf/.identitymd/work/5592b20b-43d3-466a-84ab-15b16185201c/e22339e3-89ef-49f0-a39f-02455bea96a1/docs/frontend/interaction-results.json

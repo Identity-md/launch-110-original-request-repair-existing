@@ -1,0 +1,36 @@
+{
+  "chainId": 11155111,
+  "repoUrl": "https://github.com/Identity-md/launch-108-proofofworktoken",
+  "version": 1,
+  "launchId": "ee1f32a2-7f0e-48f1-88c2-1c591e0bdc66",
+  "manifest": {
+    "kind": "evm_project",
+    "pool": {
+      "fee": 3000,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336",
+      "pairedCurrency": "0x0000000000000000000000000000000000000000"
+    },
+    "notes": "Token-only Sepolia launch. ProofOfWorkToken has a nonpayable constructor with no arguments. The configured ProjectFactory supplies the protocol LP and MerkleDistributor. The native ETH pool has no hook and is seeded with launch tokens only, without ETH funding. initialPrice is the legacy decimal sqrtPriceX96 retained for provenance; the pinned policy v5 determines the effective opening price from the approved 20 ETH fully diluted valuation. Policy, frozen allocations, privileged addresses and signed artifact linkage are supplied by services; these notes do not grant deployment authority.",
+    "token": {
+      "name": "Proof Of Work",
+      "symbol": "WORK",
+      "contract": "ProofOfWorkToken",
+      "decimals": 18
+    },
+    "contracts": []
+  },
+  "contracts": [
+    {
+      "name": "ProofOfWorkToken",
+      "txHash": "0x4612136345c970659a035d3b65f385dd0ac7014c79342be3126c0d4c311ac5e6",
+      "abiHash": "38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee",
+      "address": "0xee85b80543c4f301b33505de4d9d0217ce26d8dd",
+      "blockNumber": 11755410,
+      "creationCodeHash": "21251ee0c18b8b242497bcad01651c3d541066be9858530234499bfec07e4f3f"
+    }
+  ],
+  "sourceCommit": "f6b17dac020709c2fa2c20d169aa7d3a16cc0a37",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "96893dd74095e1fc152b393597d1a4d8b00d2a1d02a30654a8fbc088a1f2e734"
+}

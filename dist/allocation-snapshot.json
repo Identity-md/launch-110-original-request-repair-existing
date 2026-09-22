@@ -1,0 +1,587 @@
+{
+  "provenance": {
+    "url": "https://api.imd.fun/launches/ee1f32a2-7f0e-48f1-88c2-1c591e0bdc66",
+    "fetchedAt": "2026-09-22T04:33:59.741Z",
+    "responseSha256": "99418537b124965b3296bbb328a9e33594bfcf01c64c96b92813f711732e4804",
+    "selection": "All allocations and reward breakdown preserved; unrelated work/job metadata omitted. merkleRoot present in response."
+  },
+  "launchId": "ee1f32a2-7f0e-48f1-88c2-1c591e0bdc66",
+  "serviceRoot": "0xb2bfb078148d698e3f24ee75fdacfd7b067112bd2b8e14121b6cc9bae73aa32e",
+  "allocations": [
+    {
+      "wallet": "0x200e710acaa6a93bbc77146026328c40f1d60fb1",
+      "amount": "12937841269841269841269842"
+    },
+    {
+      "wallet": "0x53b4fb24d2f509a0643a9089c7e7a68011f93118",
+      "amount": "9601841269841269841269842"
+    },
+    {
+      "wallet": "0x00686721eda367a3399c7bd06ae04104a4f6ca76",
+      "amount": "1269841269841269841269842"
+    },
+    {
+      "wallet": "0x047f606fd5b2baa5f5c6c4ab8958e45cb6b054b7",
+      "amount": "1269841269841269841269842"
+    },
+    {
+      "wallet": "0x08b75eb492964db1a183fa4fa0be49c5306c8e83",
+      "amount": "1269841269841269841269842"
+    },
+    {
+      "wallet": "0x0a5b0e232d47541eb503bc862a9db2672b8fba24",
+      "amount": "1269841269841269841269842"
+    },
+    {
+      "wallet": "0x0b516edc029ec08075b7d4e0267f6d5015e2c342",
+      "amount": "1269841269841269841269842"
+    },
+    {
+      "wallet": "0x0d74eeb0b00c6a90142e51865f7c05473264841c",
+      "amount": "1269841269841269841269842"
+    },
+    {
+      "wallet": "0x0df7a5bbdd79f46df27852897c25bdd253865bc1",
+      "amount": "1269841269841269841269842"
+    },
+    {
+      "wallet": "0x1c29082c8e4cc328bef3c03b4affaae49373b078",
+      "amount": "1269841269841269841269842"
+    },
+    {
+      "wallet": "0x1f916bbf39ab189a9e3d9e1823a7b1a8e9e5f204",
+      "amount": "1269841269841269841269842"
+    },
+    {
+      "wallet": "0x2bbad01f50eae735f95050b62e3a7d0c4cf8f6ca",
+      "amount": "1269841269841269841269842"
+    },
+    {
+      "wallet": "0x2c10c78fde5837c1befa6e6e6c6633cd0f1bda05",
+      "amount": "1269841269841269841269842"
+    },
+    {
+      "wallet": "0x3876766f05bb3cb5a16d3ceb2113f48637372ade",
+      "amount": "1269841269841269841269842"
+    },
+    {
+      "wallet": "0x3a9436134db40a6a210eb642b3c495b30e082ee4",
+      "amount": "1269841269841269841269842"
+    },
+    {
+      "wallet": "0x40e9049a6e7030a7090f43c33593f0b02ce00c39",
+      "amount": "1269841269841269841269842"
+    },
+    {
+      "wallet": "0x500e4170fce824fcdc62d5e0d1f8e3a202634deb",
+      "amount": "1269841269841269841269842"
+    },
+    {
+      "wallet": "0x5869458f360d8c1ce49e35fccb3d0a1f25e8d533",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0x5b92d2b38ab372bff63f55113b98253adff62a74",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0x62623e1387e50b3c721db991db7456608c6536e3",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0x64da3d8ecb282a346b4f1642e8bbc759f09729b1",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0x6b418a0a93532a660fcfdfcbc74078dae1e43dec",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0x6ba9ad599e6271252817933831e3148936cf742a",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0x710fed1a6ef0249292df001cdcbdae386b637733",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0x71473743f1a940415ae1c9482a1dd03fd1a26752",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0x7381a7813e0a02d6c70ee9d1f1a99f923d40f335",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0x7756cc297c4007b6a2183927320f14d19a5c61be",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0x7c670f9dff85e61965cb04d0a105e8f9cc9310d2",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0x7c6cc4fc9f054f851aa9ae3577087f00e017db5a",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0x824932206b216977e3a94094a9d6ecfc6851f0c8",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0x83027ad9d0d5374335086c539dadd1db983441b0",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0x8b0a7643f7a880cb635a5ed1ad96817c6eb39800",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0x8daa4f26132e99f0512a8154f019c8ff7fd6269c",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xa227a71e217173de3edcbfb66607e3ef283e4a82",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xa4f408cd75f1cce8bc4cc2fd9689646e69a6fded",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xa8c4aa8aa2673918605211cad32631aaf3aad0ee",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xaa90befc76b37f487eec5c1a593ea5b9826440be",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xabe0cdd036456fcc1b64d1ddb7aa3bdf7d5b98b1",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xadd07179360038eebac815cf4beb0f3601fd0674",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xaf3c7db3a8ca9fe3dc12930b8c93862c490270f9",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xb3763a57618a8842d5b5664651ea7b8ef6334329",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xb579160db92b6e9f92791ed3003625d97a4951cc",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xbba92286026209e652384572a2c51e52c9aadbe8",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xbd9c944dcfb31cd24c81ebf1c974d950f44e42b8",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xbe11d80c27863c950485d269992dc086e9f397a9",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xc60c81b48bdf107e1651e8ebee971e84885febda",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xcc242e943cb785794f93acaa835307fabae84bd4",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xcd5a046e76029fccc360ea842a1c42bc4b302c2f",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xce925af5293c66c7c2c14a851aaaee34ddaa9319",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xcefdb5f635bfc913d12e6eac3738e92b1681bd65",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xcf5f2b2acf6d8997079f6a3db551372816119754",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xd9cd57f73e96549013ee34568b1940711d01c1b5",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xe085327c5ad2f77147f10973fed45fb19d734f7e",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xe5b1275fb926613d983da33fbfe1f331b7f64f2a",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xe643122440526d1211a1bb8b19659540aba26244",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xe6c486eb5f5cc2c64b53ab6c3942986d648c9b89",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xef1eb4600387496b7ba51f8c65e80b60f105f99b",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xf0add48152127e2f2cd3e51d1ad530cad8c864d2",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xf8ac5532cf5d261c00c5a71c246225256db6424d",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xfb03f58d952e3636284100cadcd51e5278994c19",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xfe202706e36f31afbaf4b4543c2a8bba4ddb2dee",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xfe35e15be885750d9b2363cbb6abdd57ac9c4c40",
+      "amount": "1269841269841269841269841"
+    },
+    {
+      "wallet": "0xffa3ae208fffec6741f10df7e115bd715beb1b0a",
+      "amount": "1269841269841269841269841"
+    }
+  ],
+  "rewardSnapshot": {
+    "to": "2026-09-22T03:55:49.379Z",
+    "from": "2026-09-21T15:55:49.379Z",
+    "version": 2,
+    "breakdown": [
+      {
+        "wallet": "0x00686721eda367a3399c7bd06ae04104a4f6ca76",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269842"
+      },
+      {
+        "wallet": "0x047f606fd5b2baa5f5c6c4ab8958e45cb6b054b7",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269842"
+      },
+      {
+        "wallet": "0x08b75eb492964db1a183fa4fa0be49c5306c8e83",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269842"
+      },
+      {
+        "wallet": "0x0a5b0e232d47541eb503bc862a9db2672b8fba24",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269842"
+      },
+      {
+        "wallet": "0x0b516edc029ec08075b7d4e0267f6d5015e2c342",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269842"
+      },
+      {
+        "wallet": "0x0d74eeb0b00c6a90142e51865f7c05473264841c",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269842"
+      },
+      {
+        "wallet": "0x0df7a5bbdd79f46df27852897c25bdd253865bc1",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269842"
+      },
+      {
+        "wallet": "0x1c29082c8e4cc328bef3c03b4affaae49373b078",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269842"
+      },
+      {
+        "wallet": "0x1f916bbf39ab189a9e3d9e1823a7b1a8e9e5f204",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269842"
+      },
+      {
+        "wallet": "0x200e710acaa6a93bbc77146026328c40f1d60fb1",
+        "launchAmount": "11668000000000000000000000",
+        "recentAmount": "1269841269841269841269842"
+      },
+      {
+        "wallet": "0x2bbad01f50eae735f95050b62e3a7d0c4cf8f6ca",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269842"
+      },
+      {
+        "wallet": "0x2c10c78fde5837c1befa6e6e6c6633cd0f1bda05",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269842"
+      },
+      {
+        "wallet": "0x3876766f05bb3cb5a16d3ceb2113f48637372ade",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269842"
+      },
+      {
+        "wallet": "0x3a9436134db40a6a210eb642b3c495b30e082ee4",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269842"
+      },
+      {
+        "wallet": "0x40e9049a6e7030a7090f43c33593f0b02ce00c39",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269842"
+      },
+      {
+        "wallet": "0x500e4170fce824fcdc62d5e0d1f8e3a202634deb",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269842"
+      },
+      {
+        "wallet": "0x53b4fb24d2f509a0643a9089c7e7a68011f93118",
+        "launchAmount": "8332000000000000000000000",
+        "recentAmount": "1269841269841269841269842"
+      },
+      {
+        "wallet": "0x5869458f360d8c1ce49e35fccb3d0a1f25e8d533",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0x5b92d2b38ab372bff63f55113b98253adff62a74",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0x62623e1387e50b3c721db991db7456608c6536e3",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0x64da3d8ecb282a346b4f1642e8bbc759f09729b1",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0x6b418a0a93532a660fcfdfcbc74078dae1e43dec",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0x6ba9ad599e6271252817933831e3148936cf742a",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0x710fed1a6ef0249292df001cdcbdae386b637733",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0x71473743f1a940415ae1c9482a1dd03fd1a26752",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0x7381a7813e0a02d6c70ee9d1f1a99f923d40f335",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0x7756cc297c4007b6a2183927320f14d19a5c61be",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0x7c670f9dff85e61965cb04d0a105e8f9cc9310d2",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0x7c6cc4fc9f054f851aa9ae3577087f00e017db5a",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0x824932206b216977e3a94094a9d6ecfc6851f0c8",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0x83027ad9d0d5374335086c539dadd1db983441b0",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0x8b0a7643f7a880cb635a5ed1ad96817c6eb39800",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0x8daa4f26132e99f0512a8154f019c8ff7fd6269c",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xa227a71e217173de3edcbfb66607e3ef283e4a82",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xa4f408cd75f1cce8bc4cc2fd9689646e69a6fded",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xa8c4aa8aa2673918605211cad32631aaf3aad0ee",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xaa90befc76b37f487eec5c1a593ea5b9826440be",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xabe0cdd036456fcc1b64d1ddb7aa3bdf7d5b98b1",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xadd07179360038eebac815cf4beb0f3601fd0674",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xaf3c7db3a8ca9fe3dc12930b8c93862c490270f9",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xb3763a57618a8842d5b5664651ea7b8ef6334329",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xb579160db92b6e9f92791ed3003625d97a4951cc",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xbba92286026209e652384572a2c51e52c9aadbe8",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xbd9c944dcfb31cd24c81ebf1c974d950f44e42b8",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xbe11d80c27863c950485d269992dc086e9f397a9",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xc60c81b48bdf107e1651e8ebee971e84885febda",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xcc242e943cb785794f93acaa835307fabae84bd4",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xcd5a046e76029fccc360ea842a1c42bc4b302c2f",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xce925af5293c66c7c2c14a851aaaee34ddaa9319",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xcefdb5f635bfc913d12e6eac3738e92b1681bd65",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xcf5f2b2acf6d8997079f6a3db551372816119754",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xd9cd57f73e96549013ee34568b1940711d01c1b5",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xe085327c5ad2f77147f10973fed45fb19d734f7e",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xe5b1275fb926613d983da33fbfe1f331b7f64f2a",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xe643122440526d1211a1bb8b19659540aba26244",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xe6c486eb5f5cc2c64b53ab6c3942986d648c9b89",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xef1eb4600387496b7ba51f8c65e80b60f105f99b",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xf0add48152127e2f2cd3e51d1ad530cad8c864d2",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xf8ac5532cf5d261c00c5a71c246225256db6424d",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xfb03f58d952e3636284100cadcd51e5278994c19",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xfe202706e36f31afbaf4b4543c2a8bba4ddb2dee",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xfe35e15be885750d9b2363cbb6abdd57ac9c4c40",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      },
+      {
+        "wallet": "0xffa3ae208fffec6741f10df7e115bd715beb1b0a",
+        "launchAmount": "0",
+        "recentAmount": "1269841269841269841269841"
+      }
+    ],
+    "recentContributorBps": 800
+  }
+}
